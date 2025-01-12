@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+}
+body{
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* header */
+.header{
+    width: 100%;
+    text-decoration:none;
+    gap: 380px;
+    background-color: black;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+}
+.sub-header{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   width:800px;
+   line-height: 30px;
+
+}
+.food{
+    color: #000000;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffff;
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+.MENU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.inheader:hover{
+
+background-color: white;
+color: #000000;
+}
+a:hover{
+    width: 200px;
+    background-color: black;
+   color: #ffff;
+    text-align: center;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+input{
+    height: 50px;
+    font-size: 24px;
+}
+.msg{
+  background-color: #000000;
+  color: white;  
+  justify-content: center;
+    align-items: center;
+    display: inline-flex;
+
+}
+.div5 > .msg:hover{
+    background-color: gray;
+    color: #ffff;
+}
+.font{
+    background-color: powderblue;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+.drinks{
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+.fly{
+    background-color: #000000;
+    color: #ffff;
+    padding: 5px;
+}
